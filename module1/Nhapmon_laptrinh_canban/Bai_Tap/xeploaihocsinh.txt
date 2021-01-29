@@ -1,0 +1,12 @@
+Begin
+Nhap a la diem cua hoc sinh
+if(a>=75) 
+Loai a
+if(60 <= a < 75)
+Loai b
+if(45 <= a <60)
+loai c
+if(a<35)
+loai d
+display " Loai cua hoc sinh"
+End
