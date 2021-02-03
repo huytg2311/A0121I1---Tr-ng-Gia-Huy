@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="" />
+    <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/CV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/Drinks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/simpleform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nhapmon_laptrinh_canban/Bai_Tap/0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nhapmon_laptrinh_canban/Bai_Tap/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nhapmon_laptrinh_canban/Thuc_Hanh/0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1nYtVUf8ghc4jAWuurvSIxXoMb1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -29,6 +53,9 @@
       <updated>1611578875699</updated>
       <workItem from="1611578878589" duration="526000" />
       <workItem from="1611579423249" duration="1428000" />
+      <workItem from="1612177259399" duration="5584000" />
+      <workItem from="1612242575837" duration="1876000" />
+      <workItem from="1612348966902" duration="2351000" />
     </task>
     <servers />
   </component>
