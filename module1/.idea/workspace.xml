@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/CV.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/Drinks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/google.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nhapmon_laptrinh_canban/Bai_Tap/simpleform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nhapmon_laptrinh_canban/Bai_Tap/0001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nhapmon_laptrinh_canban/Bai_Tap/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nhapmon_laptrinh_canban/Thuc_Hanh/0001.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/Lich.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/Taobangdongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/covua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/formdangkyhovaten.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/formsurvey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Thuc_hanh/Taobangnagcao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form va Table/Thuc_hanh/tablesimple.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git va HTML/Bai_tap/google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git va HTML/Bai_tap/simpleform.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,8 @@
       <workItem from="1611579423249" duration="1428000" />
       <workItem from="1612177259399" duration="5584000" />
       <workItem from="1612242575837" duration="1876000" />
-      <workItem from="1612348966902" duration="2351000" />
+      <workItem from="1612348966902" duration="8735000" />
+      <workItem from="1612528463921" duration="1480000" />
     </task>
     <servers />
   </component>
