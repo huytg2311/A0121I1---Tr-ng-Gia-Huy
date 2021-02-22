@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/Lich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/Taobangdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/covua.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/formdangkyhovaten.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form va Table/Bai_tap/formsurvey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form va Table/Thuc_hanh/Taobangnagcao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form va Table/Thuc_hanh/tablesimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/a_chia_het_cho_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/dientich_hinh_chu_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/khaibaocacbien#nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tong quan ve JavaScript/Thuc hanh/HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tong quan ve JavaScript/Thuc hanh/alert().html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tong quan ve JavaScript/Thuc hanh/console.log().html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tong quan ve JavaScript/Thuc hanh/document.write().html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git va HTML/Bai_tap/google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git va HTML/Bai_tap/simpleform.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,9 @@
       <workItem from="1612177259399" duration="5584000" />
       <workItem from="1612242575837" duration="1876000" />
       <workItem from="1612348966902" duration="8735000" />
-      <workItem from="1612528463921" duration="1480000" />
+      <workItem from="1612528463921" duration="1595000" />
+      <workItem from="1613975947458" duration="2296000" />
+      <workItem from="1613990956708" duration="839000" />
     </task>
     <servers />
   </component>
