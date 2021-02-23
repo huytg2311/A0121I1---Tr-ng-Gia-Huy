@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function convert() {
+            let money = Number(document.getElementById("money").value);
+            let fromCurrency = document.getElementById("fromCurrency").value;
+            let toCurrency = document.getElementById("toCurrency").value;
+            let result;
+            if (fromCurrency === toCurrency) {
+                result = money;
+            }
+
+            if (fromCurrency === "VND") {
+                if (toCurrency === "USD") {
+                    result = money / 23.000
+                }
+            }
+            if (fromCurrency === "VND") {
+                if (toCurrency === "KRW"){
+                    result = money * 1.000 / 21.000
+                }
+            }
+            if (fromCurrency === "USD") {
+                if (toCurrency === "VND"){
+                    result = money * 23.000
+                }
+            }
+            if (fromCurrency === "USD") {
+                if (toCurrency === "KRW") {
+                    result = money * 1.000
+                }
+            }
+            if(fromCurrency === "KRW"){
+                if(toCurrency === "VND"){
+                    result = money * 21.000 / 1.000
+                }
+            }
+            if(fromCurrency==="KRW"){
+                if(toCurrency==="USD"){
+                    result = money / 1.000
+                }
+            }
+
+
+            document.getElementById("result").innerText = result;
+        }
+
+    </script>
+</head>
+<body>
+<!--<form>-->
+    <h2>Amount</h2>
+    <input type="number" id="money" size="25"/>
+    <h2>From Currency</h2>
+    <select id="fromCurrency">
+        <option value="VND">VietNam</option>
+        <option value="USD">American</option>
+        <option value="KRW">Korean</option>
+    </select>
+    <h2>To Currency</h2>
+    <select id="toCurrency">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+        <option value="KRW">KRW</option>
+    </select>
+    <button id="convert" onclick="convert()">Convert</button>
+    <p id="result"></p>
+<!--</form>-->
+
+
+</body>
+</html>

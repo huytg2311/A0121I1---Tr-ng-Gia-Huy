@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let inputDiemLy
+    let inputDiemHoa
+    let inputDiemSinh
+
+    inputDiemLy = prompt("Nhap diem mon Vat Ly: ");
+    inputDiemHoa = prompt("Nhap diem mon Hoa hoc: ");
+    inputDiemSinh = prompt("Nhap diem mon Sinh hoc");
+
+    DiemLy = parseInt(inputDiemLy);
+    DiemHoa = parseInt(inputDiemHoa);
+    DiemSinh = parseInt(inputDiemSinh);
+
+    let diemTrungBinh = (DiemLy + DiemHoa + DiemSinh) / 3
+    let tongCacMon = DiemLy + DiemSinh + DiemHoa
+    document.write("Diem trung binh cac mon: " + diemTrungBinh);
+    document.write("Tong diem cac mon la: " + tongCacMon);
+</script>
 </body>
 </html>
