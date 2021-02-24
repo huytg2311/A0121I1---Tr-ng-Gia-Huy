@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Bai_Tap/Caculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Bai_Tap/chuyen_doi_tuyen_te.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Bai_Tap/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Bai_Tap/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/Celsius_Fahrenheit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/chuvi_dientich_of_hinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_dieu_kien_1/Bai_Tap/Nam_Nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_dieu_kien_1/Thuc_Hanh/Bai3_SC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_dieu_kien_1/Thuc_Hanh/Toan_Tu_Ba_Ngoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_dieu_kien_1/Thuc_Hanh/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_dieu_kien_1/Thuc_Hanh/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_dieu_kien_1/Thuc_Hanh/office.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/su_dung_toan_tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/su_dung_toan_tu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/trungbinh_tong_cacmon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bien_Va_Kieu_Du_Lieu/Thuc_Hanh/trungbinh_tong_cacmon.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,7 +59,8 @@
       <workItem from="1612528463921" duration="1595000" />
       <workItem from="1613975947458" duration="2296000" />
       <workItem from="1613990956708" duration="8984000" />
-      <workItem from="1614069226290" duration="4722000" />
+      <workItem from="1614069226290" duration="4989000" />
+      <workItem from="1614164850674" duration="4109000" />
     </task>
     <servers />
   </component>
