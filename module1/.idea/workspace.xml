@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/How_many_day.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/Puzzle_Game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/Weight_and_Height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/caculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/loveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/newdite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Thuc_Hanh/Ball.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Thuc_Hanh/Nobita.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/good_fast_cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/TheNumber5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/Tinh_tong_cac_phan_tu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/While_Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/doWhile_bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/vong_lap_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/while_bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_2/Bai_Tap/Bang_Cuu_Chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/a_chia_het_cho_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/em_be_lop_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/gia_tri_lon_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/lon_hon_be_hon_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tong quan ve JavaScript/Thuc hanh/ex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/Puzzle_Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/Puzzle_Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/caculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/newdite.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +83,11 @@
       <workItem from="1614069226290" duration="4989000" />
       <workItem from="1614164850674" duration="6036000" />
       <workItem from="1614317945293" duration="6356000" />
-      <workItem from="1614335784332" duration="4656000" />
+      <workItem from="1614335784332" duration="7702000" />
+      <workItem from="1614601084560" duration="6641000" />
+      <workItem from="1614750539277" duration="816000" />
+      <workItem from="1614769840988" duration="5895000" />
+      <workItem from="1614930022166" duration="455000" />
     </task>
     <servers />
   </component>
@@ -82,9 +95,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614750581396">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="368" y="149" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1614750581396" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1614348059918">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1614348059917" />
     <state x="638" y="100" width="542" height="489" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1614170075260">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="638" y="100" width="542" height="489" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1280.689@0.0.1280.689" timestamp="1614170075260" />
+    <state x="-14" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1614601604020">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="-14" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1614601604020" />
   </component>
 </project>

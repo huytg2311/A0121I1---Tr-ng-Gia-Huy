@@ -5,25 +5,42 @@
     <title>Title</title>
 </head>
 <body>
-<form name="calculator">
-    <input type="button" value="1" onclick="document.calculator.ans.value+='1'">
-    <input type="button" value="2" onclick="document.calculator.ans.value+='2'">
-    <input type="button" value="3" onclick="document.calculator.ans.value+='3'"><br>
-    <input type="button" value="4" onclick="document.calculator.ans.value+='4'">
-    <input type="button" value="5" onclick="document.calculator.ans.value+='5'">
-    <input type="button" value="6" onclick="document.calculator.ans.value+='6'">
-    <input type="button" value="7" onclick="document.calculator.ans.value+='7'">
-    <input type="button" value="8" onclick="document.calculator.ans.value+='8'">
-    <input type="button" value="9" onclick="document.calculator.ans.value+='9'">
-    <input type="button" value="+" onclick="document.calculator.ans.value+='+'"><br>
-    <input type="button" value="-" onclick="document.calculator.ans.value+='-'">
-    <input type="button" value="*" onclick="document.calculator.ans.value+='*'">
-    <input type="button" value="/" onclick="document.calculator.ans.value+='/'">
-
-    <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
-    <input type="reset" value="Ac" onclick="document.calculator.ans.value+='Ac'">
-    <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
-    <br>Solution is: <input type="textfield" name="ans" value="">
-</form>
+<table>
+    <tr>
+        <td colspan="4"><input type="text" id="ketQua"></td>
+    </tr>
+    <tr>
+    <td><button onclick="nhap('1')">1</button></td>
+    <td><button onclick="nhap('2')">2</button></td>
+    <td><button onclick="nhap('3')">3</button></td>
+    <td><button onclick="nhap('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="nhap('4')">4</button></td>
+        <td><button onclick="nhap('5')">5</button></td>
+        <td><button onclick="nhap('6')">6</button></td>
+        <td><button onclick="nhap('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="nhap('7')">7</button></td>
+        <td><button onclick="nhap('8')">8</button></td>
+        <td><button onclick="nhap('9')">9</button></td>
+        <td><button onclick="nhap('*')">*</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="xoaGiaTri()">AC</button></td>
+        <td><button onclick="nhap('0')">0</button></td>
+        <td><button onclick="tinhToan()">=</button></td>
+        <td><button onclick="nhap('/')">/</button></td>
+    </tr>
+</table>
+<script>
+    function nhap(number) {
+        document.getElementById("ketQua").value += number
+    }
+    function tinhToan() {
+        document.getElementById("ketQua").value = (eval(document.getElementById("ketQua").value))
+    }
+</script>
 </body>
 </html>
