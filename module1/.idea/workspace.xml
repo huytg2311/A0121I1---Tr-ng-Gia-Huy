@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/good_fast_cheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/TheNumber5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/Tinh_tong_cac_phan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/While_Bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/doWhile_bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/vong_lap_long_nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_1/Thuc_hanh/while_bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cau_truc_lap_2/Bai_Tap/Bang_Cuu_Chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/a_chia_het_cho_b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/em_be_lop_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/gia_tri_lon_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Cau_Truc_Dieu_Kien_01/lon_hon_be_hon_0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/display.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tong quan ve JavaScript/Thuc hanh/ex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/Hoan_Doi_So.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/Tim_Gia_Tri_Lon_Nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/Tim_vi_tri_phan_tu_Mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/carosimple.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/Puzzle_Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/Puzzle_Game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/caculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cau_Truc_Dieu_Kien_2/Bai_Tap/newdite.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +75,8 @@
       <workItem from="1614750539277" duration="816000" />
       <workItem from="1614769840988" duration="5895000" />
       <workItem from="1614930022166" duration="455000" />
+      <workItem from="1615125554064" duration="1720000" />
+      <workItem from="1615203009992" duration="2490000" />
     </task>
     <servers />
   </component>
