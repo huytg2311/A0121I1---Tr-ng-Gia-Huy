@@ -2,11 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6772a492-8666-424b-bd74-b54857eb63ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/Hoan_Doi_So.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/Tim_Gia_Tri_Lon_Nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/Tim_vi_tri_phan_tu_Mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang/Thuc_Hanh/carosimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Canvas/Canvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/Thuc_Hanh/Chuyen_Doi_Nhiet_Do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/Thuc_Hanh/Tao_GoiHam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/Thuc_Hanh/Tim_GTNN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/So_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/feet_meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_01/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_01/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_01/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_01/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_01/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_ 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/luyen_tap_ham_su_dung_02/Bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ham2/Bai_Tap/quan_ly_san_pham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Huong_Doi_Tuong_02/Bai_Tap/Pikachu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Huong_Doi_Tuong_02/Bai_Tap/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Huong_Doi_Tuong_1/Thuc_Hanh/Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Huong_Doi_Tuong_1/Thuc_Hanh/Date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Huong_Doi_Tuong_1/Thuc_Hanh/funny_circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_2/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_2/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_2/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_2/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_2/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_2/Bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1_Truong_Gia_Huy/Yeu_Cau_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1_Truong_Gia_Huy/Yeu_Cau_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex/Push.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ex/Push.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex/concat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ex/concat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex/index_of.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ex/index_of.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex/splice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ex/splice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Luyen_Tap_Mang_1/Bai_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mang_2/Bai_Tap/Su_Dung_Ham_Co_San/Bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang_2/Bai_Tap/Su_Dung_Ham_Co_San/Bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mang_2/Bai_Tap/Su_Dung_Ham_Co_San/Bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang_2/Bai_Tap/Su_Dung_Ham_Co_San/Bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mang_2/Bai_Tap/Su_Dung_Ham_Co_San/Bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang_2/Bai_Tap/Su_Dung_Ham_Co_San/Bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mang_2/Bai_Tap/Tu_Dien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang_2/Bai_Tap/Tu_Dien.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +63,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,7 +123,22 @@
       <workItem from="1614769840988" duration="5895000" />
       <workItem from="1614930022166" duration="455000" />
       <workItem from="1615125554064" duration="1720000" />
-      <workItem from="1615203009992" duration="2490000" />
+      <workItem from="1615203009992" duration="5373000" />
+      <workItem from="1615301855615" duration="1583000" />
+      <workItem from="1615361819806" duration="2307000" />
+      <workItem from="1615378643225" duration="6354000" />
+      <workItem from="1615389702623" duration="3153000" />
+      <workItem from="1615426500505" duration="2319000" />
+      <workItem from="1615441155828" duration="6222000" />
+      <workItem from="1615537340027" duration="1449000" />
+      <workItem from="1615692703082" duration="353000" />
+      <workItem from="1615737317731" duration="1266000" />
+      <workItem from="1615806154361" duration="10332000" />
+      <workItem from="1615907529642" duration="2067000" />
+      <workItem from="1615979935009" duration="4175000" />
+      <workItem from="1616046735519" duration="175000" />
+      <workItem from="1616047064748" duration="1273000" />
+      <workItem from="1616125066466" duration="4169000" />
     </task>
     <servers />
   </component>
@@ -84,6 +146,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="5" key="#Inspections" timestamp="1615391275066">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Inspections/0.0.1280.689@0.0.1280.689" timestamp="1615391275066" />
     <state x="368" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614750581396">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

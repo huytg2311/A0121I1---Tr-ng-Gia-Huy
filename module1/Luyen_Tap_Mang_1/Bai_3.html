@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let numbers = [1,2,3,4,5];
+    let max = numbers[0];
+    let sum = numbers.reduce(function (a, b) {
+        return a + b;
+    });
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+
+        }
+    }
+    alert(max);
+    alert(sum);
+
+</script>
 </body>
 </html>

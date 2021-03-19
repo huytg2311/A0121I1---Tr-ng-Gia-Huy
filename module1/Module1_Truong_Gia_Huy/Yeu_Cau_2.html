@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = "Truong Gia Huy";
+    let CMND = "201820837";
+    let date = "23/11/2001";
+    let email = "huytg23112001@gmail.com";
+    let adress = "DaNang city";
+    let typeCustomer = "Diamond";
+    let discount = "10%";
+    let quanityIncluded = "5";
+    let rentdays = "7";
+    let typeService = "Vip";
+    let typeRoom = "Village";
+    let totalPay;
+
+    let choose = parseInt(prompt("1. Show Information Customer" + "\n" +
+                                 "2. Edit Information Customer: " + "\n" +
+                                 "3. Show the amount to be paid after discount: "));
+
+    switch(choose) {
+        case 1: {
+            alert("Name: " + name + "\n" +
+                  "CMND: " + CMND + "\n" +
+                  "Date: " + date + "\n" +
+                  "Email: " + email + "\n" +
+                  "Adress: " + adress + "\n" +
+                  "TypeCusTomer: " + typeCustomer + "\n" +
+                  "TypeService: "+ typeService + "\n" +
+                  "TypeRoom: " + typeRoom + "\n" +
+                  "Discount: " + discount + "\n" +
+                  "QuanityIncluded: " + quanityIncluded + "\n" +
+                  "Rentdays: " + rentdays + "");
+            break;
+        }
+        case 2: {
+            let edit = parseInt(prompt("1. Name: " + name + "\n" +
+                                       "2. CMND: " + CMND + "\n" +
+                                       "3. Date: " + date + "\n" +
+                                       "4. Email: " + email + "\n" +
+                                       "5. Adress: " + adress + "\n" +
+                                       "6. TypeCusTomer: " + typeCustomer + "\n" +
+                                       "7. TypeService: "+ typeService + "\n" +
+                                       "8. TypeRoom: " + typeRoom + "\n" +
+                                       "9. Discount: " + discount + "\n" +
+                                       "10. QuanityIncluded: " + quanityIncluded + "\n" +
+                                       "11. Rentdays: " + rentdays));
+
+            switch (edit) {
+                case 1: {
+                    name = prompt("Enter YourName: ");
+                        break;
+                }   case 2: {
+                        CMND = prompt("Enter CMND: ");
+                            break;
+                }       case 3: {
+                            date = prompt("Enter Date: ");
+                                break;
+                }           case 4: {
+                                email = prompt("Enter email: ");
+                                    break;
+                }               case 5: {
+                                    adress = prompt("Enter address: ");
+                                        break;
+                }                   case 6 : {
+                                        typeCustomer = prompt("Type Customer: ");
+                                            break;
+                }                       case 7: {
+                                            typeService = prompt("Type Service: ");
+                                                break;
+                }                           case 8: {
+                                                typeRoom = prompt("Type Room: ");
+                                                    break;
+                }                               case 9: {
+                                                    discount = prompt("Enter discount: ");
+                                                        break;
+                }                                   case 10: {
+                                                        quanityIncluded = prompt("Quanity Included: ");
+                }                                           break;
+                                                        case 11: {
+                                                            rentdays = prompt("Enter Rendays: ");
+                                                                break;
+                }                                           default: {
+                                                                alert("Please choose number in Menu !");
+                                                                    break;
+                }
+
+            }
+                  alert("Name: " + name + "\n" +
+                        "CMND: " + CMND + "\n" +
+                        "Date: " + date + "\n" +
+                        "Email: " + email + "\n" +
+                        "Adress: " + adress + "\n" +
+                        "TypeCusTomer: " + typeCustomer + "\n" +
+                        "TypeService: "+ typeService + "\n" +
+                        "TypeRoom: " + typeRoom + "\n" +
+                        "Discount: " + discount + "\n" +
+                        "QuanityIncluded: " + quanityIncluded + "\n"+
+                        "Rentdays: " + rentdays + "");
+                  break;
+
+        }
+                    default: {
+                        alert("Failed");
+                            break;
+         }
+    }       alert("Thank You !");
+</script>
+</body>
+</html>

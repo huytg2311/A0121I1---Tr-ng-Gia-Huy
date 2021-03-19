@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function showMassage2(a, b) {
+        let tmp = a[0];
+        a[0] = b[0];
+        b[0] = tmp[0];
+
+        console.log(a + " " + b);
+    }
+    let num1 = prompt("Enter the num1: ");
+    let num2 = prompt("Enter the num2: ");
+    let array1 = [num1];
+    let array2 = [num2];
+    showMassage2(array1, array2);
+    console.log(array1 + ' ' + array2);
+</script>
+</body>
+</html>

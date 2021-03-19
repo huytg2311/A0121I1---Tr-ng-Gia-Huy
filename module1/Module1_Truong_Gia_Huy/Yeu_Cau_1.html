@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name;
+    let CMND;
+    let date;
+    let email;
+    let adress;
+    let typeCustomer;
+    let discount;
+    let quanityIncluded;
+    let rentdays;
+    let typeService;
+    let typeRoom;
+    let totalPay;
+
+    name = prompt("Enter Name: ");
+    CMND = prompt("Enter CMND: ");
+    date = prompt("Enter Date: ");
+    email = prompt("Enter Email: ");
+    adress = prompt("Enter Adress: ");
+    typeCustomer = prompt("Type Customer: ");
+    discount = prompt("Enter Disount: ");
+    quanityIncluded = prompt("Enter Quanity: ");
+    rentdays = prompt("Enter Rentdays: ");
+    typeService = prompt("Type Service: ");
+    typeRoom = prompt("Type Room: ");
+
+    totalPay = 300 * rentdays * (1 - discount/100);
+    alert("Name: " + name + "CMND: " + CMND + "Date: " + date + "TypeCustomer: " + "TotalPay: " + totalPay);
+
+</script>
+</body>
+</html>

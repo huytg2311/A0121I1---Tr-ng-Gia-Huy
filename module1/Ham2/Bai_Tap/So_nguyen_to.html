@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function isPrime(number) {
+        var flag = true;
+        if (number < 2) {
+            flag = false;
+        } else if (number == 2) {
+            flag = true;
+        } else {
+            for (var i = 3; i < Math.sqrt(number); i+=2) {
+                if (n % i == 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+
+        if (flag == true) {
+            document.write(n + " la so nguyen to");
+        } else {
+            document.write(n + " khong phai la so nguyen to");
+        }
+    }
+</script>
+</body>
+</html>
