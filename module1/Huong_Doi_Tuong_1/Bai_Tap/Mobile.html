@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Mobile{
+          constructor(pin, statusMobile, name) {
+              this.pin = pin;
+              this.statusMobile = statusMobile;
+              this.smsSoanTin = [];
+              this.smsHopThuDen = [];
+              this.smsGuiTin = [];
+              this.name = name;
+          }
+
+          status() {
+              if (this.statusMobile) {
+                  return true;
+              } else {
+                  alert("Your phone turning off. Please turn on it !");
+                  return false;
+              }
+          }
+
+          turnMobile() {
+              if (this.status()) {
+                  this.statusMobile = false;
+              } else {
+                  chargeMobile();
+                  this.statusMobile = true;
+              }
+              this.pin--;
+          }
+
+          chargeMobile() {
+              if (this.pin < 5) {
+                  alert("Low Battery ! Please add energy");
+                  while (this.pin <= 100) {
+                     this.pin += 0.001;
+                     this.pin--;
+                  }
+                  }
+          soanSms() {
+                  if (this.status()) {
+                      this.chargeMobile();
+                      let sms = prompt("Enter the message: ");
+                      this.smsSoanTin.push(sms);
+                      this.pin--;
+                  }
+              }
+
+          guiSms() {
+                  if (this.status()) {
+                      this.chargeMobile();
+                      if (this.smsSoanTin.length = 0) {
+                          this.soanSms();
+                          mobile.smsHopThuDen.push("Sender: " + this.name + ". " + this.smsSoanTin[0]);
+                          this.smsSoanTin.splice(0,1);
+                      } else {
+                          let temp ="";
+                          for (let i = 0; i < this.smsSoanTin.length; i ++) {
+                              temp += i + ": " + this.smsSoanTin[i] + "\n";
+                          }
+                          let index = parseInt(prompt(temp + "\n" + "Please choose inbox to give ! "));
+                          mobile.smsHopThuDen.push("Sender: " + ". " + this.smsSoanTin[index]);
+                          this.smsHopThuDen.push(this.smsSoanTin[index]);
+                          this.smsSoanTin.splice(index, 1);
+                      }
+                      this.pin--;
+                  }
+
+              }
+
+              xemSms() {
+                  if (this.status()) {
+                      let temp = [];
+                      let tempSms = "";
+                      this.chargeMobile();
+                      for (let i = 0; i < this.smsHopThuDen.length; i ++) {
+                          let check = false;
+                          for (let j = 0; j < this.smsHopThuDen.length[i]; i ++) {
+                              if (this.smsHopThuDen[i].charAt(j) === ":") {
+                                  let tempNguoiGui = "";
+                                  for (let k = j + 1; k < this.smsHopThuDen[i].length; k ++) {
+                                      if (this.smsHopThuDen[i].charAt(k) == ".") {
+                                          temp.push(tempNguoiGui);
+                                          check = true;
+                                          break;
+
+                                      } else {
+                                          tempNguoiGui
+                                      }
+                                  }
+
+                          }
+                      }
+                  }
+              }
+
+              }
+
+          }
+    }
+</script>
+</body>
+</html>
