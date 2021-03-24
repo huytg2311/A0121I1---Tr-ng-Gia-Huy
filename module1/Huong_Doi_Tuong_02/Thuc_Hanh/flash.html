@@ -6,59 +6,69 @@
 </head>
 <body>
 <script>
-    let Battery = function () {
-        this.setEnergy = function (energy) {
-            this.setEnergy = energy;
-        }
-        this.getEnergy = function () {
-           return  this.getEnergy = energy;
-        }
-        this.decreaseEnergy = function () {
-            if (this.engergy > 0) {
-                this.energy--;
-            }
-        }
-    }
+   class Battery {
+       constructor(energy) {
+        this.energy = energy;
+       }
 
-    let FlashLamp = function () {
-        this.setBattery = function (Battery) {
-            this.setBattery = Battery;
-        }
-        this.getBatteryInfo = function () {
-            this.getBatteryInfo = Battery;
-        }
-        this.light = function () {
-            if (this.status) {
-                alert("Lighting");
-            } else {
-                alert("Not Lighting")
-            }
-        }
-        this.turnOn = function () {
-            this.status = turnOn;
-        }
-        this.turnOff = function () {
-            this.status = turnOff;
-        }
-    }
+       getEnergy() {
+           return this.energy = energy;
+       }
 
-    let battery = new Battery();
-    battery.setBattery(10);
+       setEnergy() {
+           this.energy = energy;
+       }
 
-    let flashLamp =  new FlashLamp();
-    flashLamp.setBattery(battery);
+       decreaseEnergy() {
+           if (this.energy > 0) {
+               this.energy--;
+           }
+       }
+   };
 
-    document.write("Battery Info: " + flashLamp.getBatteryInfo() + "<br/>");
-    flashLamp.light();
+   class FlashLamp {
+       constructor(status, battery) {
+        this.status = status;
+        this.battery = battery;
+       }
+       getBatteryInfo() {
+           return this.battery = battery;
+       }
+       setBattery() {
+           this.battery = battery;
+       }
+       light() {
+           if (this.status) {
+               alert("Lighting");
+           }    else {
+               alert("Not Lighting");
+           }
+       }
+       turnOn() {
+           this.status = true
+       }
+       turnOff() {
+           this.status = false;
+       }
+   }
 
-    document.write("Turn On: <br/>");
+   let battery = new Battery();
+   battery.setEnergy(10);
+
+   let flashLamp = new FlashLamp();
+   flashLamp.setBattery(battery);
+
+   document.write("Battery info: " + flashLamp.getBatteryInfo() + "<br/>");
+   flashLamp.light();
+
+   document.write("Turn on<br/>")
     flashLamp.turnOn();
-    flashLamp.light();
-    document.write("Battery Info: " + flashLamp.getBatteryInfo() + "<br/>");
+   flashLamp.light();
+   document.write("Battery info: " + flashLamp.getBatteryInfo() + "<br/>");
 
-    document.write("Turn off<br/>");
+   document.write("Turn off<br/>")
     flashLamp.turnOff();
-    flashLamp.light();
+   flashLamp.light();
 </script>
 </body>
 </html>
