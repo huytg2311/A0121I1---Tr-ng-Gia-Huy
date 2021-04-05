@@ -1,0 +1,35 @@
+#huong {
+    background-color: #BB2020;
+    color: white ;
+}
+
+
+th {
+    background-color: #3EB595;
+    color: #7D6B7D;
+
+}
+
+table{
+    width: 50%;
+}
+
+#huy {
+    background-color: #A9B6CC;
+    color: #7D6B7D;
+}
+#duc {
+    background-color: #CABAAB;
+    color:  #7D6B7D;
+}
+ #lan{
+     background-color: #FAF566;
+     color:  #7D6B7D;
+ }
+ #anh {
+     background-color: #BEC7C7;
+ }
+ #dang{
+     background-color: darkslateblue;
+     color: #7D6B7D;
+ }

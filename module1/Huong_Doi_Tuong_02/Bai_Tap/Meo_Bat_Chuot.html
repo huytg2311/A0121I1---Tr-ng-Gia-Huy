@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rat {
+        constructor(name, weight, flash, life, say) {
+            this.name = name;
+            this.weight = weight;
+            this.flash = flash;
+            this.life = life;
+            this.say = say;
+        }
+        getName() {
+            return this.name = name;
+        }
+        getWeight() {
+            return this.weight = weight;
+        }
+        getRun(speed) {
+            return this.flash = speed;
+        }
+        live() {
+            this.life = true;
+
+        }
+        dead() {
+            this.life = false;
+        }
+        soundMouse() {
+            return this.say;
+        }
+    }
+
+    class Cat {
+        constructor(name, weight, flash, say) {
+                this.name = name;
+                this.weight = weight;
+                this.flash = flash;
+                this.say = say;
+                this.run = run;
+                this.eat = eat;
+        }
+        getName() {
+            return this.name = name;
+        }
+        getWeight() {
+            return this.weight = weight;
+        }
+        getFlash(speed) {
+             return this.flash = speed;
+        }
+        soundCat() {
+            return this.say = say;
+        }
+        catCatchMouse(){
+            if (Rat.getRun() < this.getFlash()) {
+                alert("Cat cathed Mouse");
+                alert("Cat eat Mouse");
+                this.weight++;
+            } else {
+                alert("Mouse run very fast");
+            }
+        }
+    }
+
+    let h1 = new Rat("Jerry", 100, 10, true, "Chit Chit");
+    let h2 = new Cat("Tom", 200, 20, "Meow Meow");
+    alert("Cat catched mouse ! " + h2.catCatchMouse());
+</script>
+</body>
+</html>
