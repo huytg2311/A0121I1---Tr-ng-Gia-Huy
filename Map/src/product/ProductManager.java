@@ -1,68 +1,152 @@
 package product;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class ProductManager {
-    public static class Manager {
-        private int id;
-        private String name;
-        private float money;
+    static List<Product> productList;
+    static Scanner scanner = new Scanner(System.in);
 
-        public Manager() {
-        }
+    static {
+        productList = new ArrayList<>();
+        productList.add(new Product(1, "Iphone", 23.000, "USA"));
+        productList.add(new Product(2, "Samsung", 50.000, "Korean"));
+        productList.add(new Product(3, "Oppo", 20.000, "China"));
+        productList.add(new Product(4, "Nokia", 10.000, "VN"));
+    }
 
-        public Manager(int id, String name, float money) {
-            this.id = id;
-            this.name = name;
-            this.money = money;
-        }
+    public static void menu() {
+        int choice = -1;
+        do {
+            System.out.println("Enter choice: ");
+            System.out.println("1. Show all product");
+            System.out.println("2. Add new product");
+            System.out.println("3. Edit product");
+            System.out.println("4. Search product");
+            System.out.println("5. Delete product");
+            System.out.println("6. Exit");
+            choice = scanner.nextInt();
+            scanner.skip("\\R");
+            switch (choice) {
+                case 1:
+                    displayAllProduct();
+                    break;
+                case 2:
+                    addProduct();
+                    break;
+                case 3:
+                    editProduct();
+                    break;
+                case 4:
+                    searchProduct();
+                    break;
+                case 5:
+                    deleteProductById();
+                case 6:
+                    System.exit(0);
+            }
+        } while (true);
+    }
 
-        public int getId() {
-            return id;
-        }
-
-        public void setId(int id) {
-            this.id = id;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public float getMoney() {
-            return money;
-        }
-
-        public void setMoney(float money) {
-            this.money = money;
+    public static void displayAllProduct() {
+        for (Product product : productList) {
+            System.out.println(product);
         }
     }
-    public static void main(String[] args) {
-        Manager m1 = new Manager(1,"Vô cực kiếm",2400);
-        Manager m2 = new Manager(2,"Huyết kiếm", 3600);
-        Manager m3 = new Manager(3,"Tam hợp kiếm",3100);
-        Manager m4 = new Manager(4,"Song kiếm tai ương",4200);
 
-        Product<Manager> managerProduct = new Product<>();
-        Product<Manager> removeProduct = new Product<>();
-        managerProduct.add(m1);
-        managerProduct.add(m2);
-        managerProduct.add(m3);
-        managerProduct.add(m4);
-        managerProduct.size();
+    public static void addProduct() {
+        int id = -1;
+        if (productList.isEmpty()) {
+            id = 1;
+        } else {
+            id = productList.get(productList.size() - 1).getId() + 1;
+        }
+        System.out.print("Enter name product: ");
+        String name = scanner.nextLine();
+        System.out.print("Enter price: ");
+        double prince = scanner.nextDouble();
+        scanner.skip("\\R");
+        System.out.print("Enter description: ");
+        String description = scanner.nextLine();
+        Product product = new Product(id, name, prince, description);
+        productList.add(product);
+    }
 
-        for (int i = 0; i < managerProduct.size(); i++) {
-            Manager manager = (Manager) managerProduct.elements[i];
-            System.out.println("Sản phẩm " + manager.getId() + " : ");
-            System.out.println("Tên sản phẩm : " + manager.getName());
-            System.out.println("Giá tiền : " + manager.getMoney());
+    public static void deleteProductById() {
+        System.out.print("Enter id product: ");
+        int id = scanner.nextInt();
+        scanner.skip("\\R");
+        if (productList.isEmpty()) {
+            id = -1;
+        } else {
+            for (int i = 0; i < productList.size(); i++) {
+                if (id == productList.get(i).getId()) {
+                    productList.remove(i);
+                    break;
+                }
+            }
+        }
+    }
+
+    public static void editProduct() {
+        System.out.print("Enter id product: ");
+        int id = scanner.nextInt();
+        scanner.skip("\\R");
+        int choice = -1;
+        for (int i = 0; i < productList.size(); i++) {
+            if (id == productList.get(i).getId()) {
+                System.out.println("Enter property edit: ");
+                System.out.println("1. Name");
+                System.out.println("2. Price");
+                System.out.println("3.Description");
+                System.out.println("4. Back to menu");
+                System.out.print("Enter your choice: ");
+                choice = scanner.nextInt();
+                scanner.skip("\\R");
+                switch (choice) {
+                    case 1:
+                        System.out.print("Enter name: ");
+                        String name = scanner.nextLine();
+                        productList.get(i).setName(name);
+                        break;
+                    case 2:
+                        System.out.print("Enter price: ");
+                        double prince = scanner.nextDouble();
+                        productList.get(i).setPrince(prince);
+                        break;
+                    case 3:
+                        System.out.print("Enter description: ");
+                        String description = scanner.nextLine();
+                        productList.get(i).setDescription(description);
+                    case 4:
+                        menu();
+                    default:
+                        System.out.println("Please enter number in list !");
+                }
+
+            }
         }
 
-        Manager manager = removeProduct.remove(1);
     }
-}
+
+    public static void searchProduct() {
+        System.out.print("Enter id: ");
+        int id = scanner.nextInt();
+        scanner.skip("\\R");
+        if (productList.isEmpty()) {
+            System.out.println("Not valid !");
+        } else {
+            for (int i = 0; i < productList.size(); i++) {
+                if (id == productList.get(i).getId()) {
+                    System.out.println(productList.get(i));
+                }
+            }
+        }
+    }
+
+    public static void sortProduct(int id) {
+
+
+        }
+    }
+
+
