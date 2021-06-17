@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractClass&amp;Interface/AbstractClass&amp;Interface.iml" filepath="$PROJECT_DIR$/AbstractClass&amp;Interface/AbstractClass&amp;Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Access modifier/Access modifier.iml" filepath="$PROJECT_DIR$/Access modifier/Access modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Huong_Doi_Tuong/Huong_Doi_Tuong.iml" filepath="$PROJECT_DIR$/Huong_Doi_Tuong/Huong_Doi_Tuong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introduce_About_Java/Introduce_About_Java.iml" filepath="$PROJECT_DIR$/Introduce_About_Java/Introduce_About_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ke_Thua/Ke_Thua.iml" filepath="$PROJECT_DIR$/Ke_Thua/Ke_Thua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module2 - Truong Gia Huy.iml" filepath="$PROJECT_DIR$/.idea/Module2 - Truong Gia Huy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myex/Myex.iml" filepath="$PROJECT_DIR$/Myex/Myex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sap_Xep/Sap_Xep.iml" filepath="$PROJECT_DIR$/Sap_Xep/Sap_Xep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" filepath="$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextFile/TextFile.iml" filepath="$PROJECT_DIR$/TextFile/TextFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vong_Lap_Java/Vong_Lap_Java.iml" filepath="$PROJECT_DIR$/Vong_Lap_Java/Vong_Lap_Java.iml" />
+    </modules>
+  </component>
+</project>
