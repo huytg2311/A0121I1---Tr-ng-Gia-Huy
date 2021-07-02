@@ -1,5 +1,0 @@
-Student Name: Faker || Mark: 10.0 || Subject: Math
-Student Name: Trương Gia Huy || Mark: 9.0 || Subject: Code
-Student Name: Trần Đức Lĩnh || Mark: 5.0 || Subject: Japanese
-Student Name: Trần Đức Linh || Mark: 7.0 || Subject: Literature
-Student Name: Faker || Mark: 10.0 || Subject: Math
