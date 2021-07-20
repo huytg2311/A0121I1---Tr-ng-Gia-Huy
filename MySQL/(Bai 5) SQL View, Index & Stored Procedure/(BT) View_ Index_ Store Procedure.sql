@@ -71,13 +71,12 @@ call selectAllProducts();
 -- Tạo store procedure thêm một sản phẩm mới
 delimiter //
 create procedure newproduct( 
-out I_d int,
-out product_Code varchar(20),
-out product_Name varchar(20),
-out product_Price double,
-out product_Amount int,
-out product_Description varchar(20),
-out product_Status varchar(20))
+in product_Code varchar(20),
+in product_Name varchar(20),
+in product_Price double,
+in product_Amount int,
+in product_Description varchar(20),
+in product_Status varchar(20))
 begin
 set I_d = 06;
 set product_Code = 'al006';
@@ -118,6 +117,9 @@ delimiter ; //
 call edit_product(02, 'ah002', 'Oppo Reno 7', 9.000, 20, 'fivestar', 'New');
 select * from products;
 
+-- Xóa procedure
+drop procedure newproduct;
+ 
 
 
 
